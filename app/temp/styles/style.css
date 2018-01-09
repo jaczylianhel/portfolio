@@ -465,18 +465,12 @@ img {
             box-sizing: border-box;
 }
 
-/* position: relative; */
-
 .large-hero__image {
         display: block;
-
-
     }
 
 .large-hero img {
         height: 100vh;
-
-
     }
 
 .large-hero__text-content {
@@ -535,6 +529,17 @@ img {
     margin-right: auto;
 }
 
+@media (min-width: 800px) {
+
+.wrapper--links {
+            text-align: center
+    }
+    }
+
+.wrapper--links img {
+        margin-right: 40px;
+    }
+
 .site-header {
     padding: 10px 0;
     position: absolute;
@@ -552,7 +557,7 @@ img {
 
 .site-header {
         position: fixed;
-        background-color: rgba(255,255,255, .3)
+        background-color: rgba(232, 7, 7, .3)
 }
 
         .site-header--dark {
@@ -823,6 +828,7 @@ img {
         .row__large-4 {
             float: left;
             width: 33.33%;
+
         }
 
         .row__large-4--larger {
@@ -870,12 +876,16 @@ img {
     font-size: 2.55rem;
     font-weight: 300;
     text-align: center;
+    -webkit-text-decoration-line: overline underline;
+            text-decoration-line: overline underline;
+
 }
 
 @media (min-width: 530px) {
 
 .section-title {
         font-size: 3.75rem
+
 }
     }
 
@@ -914,7 +924,7 @@ img {
 
 .feature-item__icon {
         display: block;
-        margin: 0 auto;
+        text-align: center;
     }
 
 @media (min-width: 530px) {
@@ -945,4 +955,69 @@ img {
 .feature-item__title a {
         text-decoration: none;
         color: #fff;
+    }
+
+.feature-item img {
+    margin: 0 auto;
+}
+
+.form__input {
+        display: block;
+        margin-bottom: 5px;
+        height: 30px;
+        padding-left: 10px;
+        width: 100%;
+    }
+
+.form__input:focus {
+            background-color: #F8F8FF;
+        }
+
+@media (min-width: 800px) {
+
+.form__input {
+            height: 60px;
+            font-size: 1.5rem
+    }
+    }
+
+.form__textarea {
+        margin-bottom: 5px;
+        width: 100%;
+        padding-left: 10px;
+        height: 100px;
+    }
+
+.form__textarea:focus {
+            background-color: #F8F8FF;
+        }
+
+@media (min-width: 800px) {
+
+.form__textarea {
+            height: 200px;
+            font-size: 1.5rem
+    }
+    }
+
+.form::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.form__button {
+        float: right;
+        height: 30px;
+        width: 60px;
+        border: none;
+        cursor: pointer;
+    }
+
+@media (min-width: 800px) {
+
+.form {
+        width: 600px;
+        margin: 60px auto
+}
     }

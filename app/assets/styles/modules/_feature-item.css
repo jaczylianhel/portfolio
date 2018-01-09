@@ -7,9 +7,10 @@
     }
 
 
+
     &__icon {
         display: block;
-        margin: 0 auto;
+        text-align: center;
         @mixin atSmall {
             position: absolute;
             left: 0;
@@ -34,4 +35,8 @@
         color: #fff;
     }
 
+}
+
+.feature-item img {
+    margin: 0 auto;
 }

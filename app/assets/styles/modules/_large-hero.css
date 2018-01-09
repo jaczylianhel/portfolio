@@ -1,16 +1,10 @@
 .large-hero {
-
-    /* position: relative; */
     &__image {
         display: block;
-
-
     }
 
     img {
         height: 100vh;
-
-
     }
 
     &__text-content {

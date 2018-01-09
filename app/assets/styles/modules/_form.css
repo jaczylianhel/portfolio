@@ -1,0 +1,47 @@
+.form {
+
+    &__input {
+        display: block;
+        margin-bottom: 5px;
+        height: 30px;
+        padding-left: 10px;
+        width: 100%;
+
+        &:focus {
+            background-color: #F8F8FF;
+        }
+
+        @mixin atMedium {
+            height: 60px;
+            font-size: 1.5rem;
+        }
+    }
+    &__textarea {
+        margin-bottom: 5px;
+        width: 100%;
+        padding-left: 10px;
+        height: 100px;
+
+        &:focus {
+            background-color: #F8F8FF;
+        }
+
+        @mixin atMedium {
+            height: 200px;
+            font-size: 1.5rem;
+        }
+    }
+    @mixin clearfix;
+    &__button {
+        float: right;
+        height: 30px;
+        width: 60px;
+        border: none;
+        cursor: pointer;
+    }
+
+    @mixin atMedium {
+        width: 600px;
+        margin: 60px auto;
+    }
+}

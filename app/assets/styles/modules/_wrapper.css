@@ -5,4 +5,15 @@
     max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
+
+
+    &--links {
+        @mixin atMedium {
+            text-align: center;
+        }
+    }
+
+    &--links img {
+        margin-right: 40px;
+    }
 }
