@@ -19,8 +19,8 @@
                 <nav class="primary-nav primary-nav--pull-right">
                     <ul>
                         <li><a href="#about_me" id="about_me-link">About Me</a></li>
-                        <li><a href="#projects" id="projects">Projects</a></li>
-                        <li><a href="#contact" id="contact">Contact</a></li>
+                        <li><a href="#projects" id="projects-link">Projects</a></li>
+                        <li><a href="#contact" id="contact-link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -29,9 +29,9 @@
 
     <div class="large-hero">
         <picture>
-            <source srcset="assets/images/main-medium.jpeg 1380w" media="(min-width: 990px)">
-            <source srcset="assets/images/main-small.jpeg 990w" media="(min-width: 640px)">
-            <img srcset="assets/images/main-smaller.jpeg 650w" alt="main-head-image" class="large-hero__image">
+            <source srcset="assets/images/home-medium.jpeg 1320w" media="(min-width: 990px)">
+            <source srcset="assets/images/home-small-can.jpeg 990w" media="(min-width: 640px)">
+            <img srcset="assets/images/home-smaller-can.jpeg 650w" alt="main-head-image" class="large-hero__image">
         </picture>
         <div class="large-hero__text-content">
             <div class="wrapper">
@@ -41,30 +41,28 @@
         </div>
     </div>
 
-    <div id="about-me" class="page-section" data-matching-link="#about_me-link">
+    <div id="about_me" class="page-section" data-matching-link="#about_me-link">
         <div class="wrapper">
             <div class="row">
                 <div class="row__medium-4 row__medium-4--larger row--b-margin-until-medium">
-                    <!--<picture>
-                        <source sizes="404px" data-srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" media="(min-width: 1020px)">
-                        <source sizes="320px" data-srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)">
-                        <img class="lazyload" data-srcset="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Our founder Jane Doe">
-                    </picture>-->
-                    <img class="row__medium-4--my-picture" src="assets/images/myPhoto.jpg" alt="AniolPhoto">
+
+                    <img class="row__medium-4--my-picture about-me" src="assets/images/myPhoto.jpg" alt="AniolPhoto">
                 </div>
                 <div class="row__medium-8 row__medium-8--smaller">
                     <div class="generic-content-container">
-                        <h2 class="headline headline--no-t-margin section-title">ABOUT ME</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit esse cillum <strong>dolore eu fugiat.</strong></p>
+                        <h2 class="headline headline--no-t-margin section-title about-me">ABOUT ME</h2>
+                        <p class="about-me--text">My name is Paweł. I'm 31. I live in Wrocław, but I come from Dzierżoniów. </p>
+                        <p class="about-me--text">In my free time I read books by Coben, watch a serials and try to make something with Arduino. Furthermore I love run. My goal is to start this year in the half-marathon. Occasionally I play in basketball and ping-pong.</p>
+                        <p class="about-me--text">For building websites my weapons of choice are Bracket and Laptop with Ubuntu system. Currently I'm teaching myself NodeJS and AngularJS. I would like to work in a team where I could take part in prestigious projects and would like to be able to develop continuously. That's why I decided to start with <strong>Frontend</strong>. I am looking for a job in Wroclaw, but I am considering relocations.</p>
+                        <p class="about-me--text">Want to work together? I'd love to hear from you.</p>
+                        <p class="about-me--text"><strong>Carrer objective: </strong>To use my skills in the best possible way for archieving of the company's goals.</p>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div id="features" class="page-section page-section--grey" data-matching-link="#features-link">
+    <div id="projects" class="page-section page-section--grey features" data-matching-link="#projects-link">
         <div class="wrapper">
             <h2 class="section-title">MY PROJECTS</h2>
             <div class="row row--gutters-large generic-content-container">
@@ -91,7 +89,7 @@
                 <div class="row__medium-6">
                     <div class="feature-item">
                         <span class="feature-item__icon"></span>
-                        <h3 class="feature-item__title">CAMP NIEDOKONCZONE</h3>
+                        <h3 class="feature-item__title">CAMP UNDER CONSTRUCTION</h3>
                         <p>something...</p>
                         <p>Technologies: HTML CSS JAVASCRIPT ...</p>
                     </div>
@@ -101,7 +99,7 @@
                         <p>The simple game. Type right RGB colour</p>
                         <p>Technologies: HTML CSS JavaScript</p>
                     </div>
-                    <div class="feature-item">
+                    <div class="feature-item contact">
                         <span class="feature-item__icon"><img src="assets/images/icons/TV-pilot-mini.jpg" /></span>
                         <h3 class="feature-item__title">TV PILOT</h3>
                         <p>My First App with used database</p>
@@ -111,7 +109,7 @@
             </div>
         </div>
     </div>
-    <div class="page-section">
+    <div id="contact" class="page-section" data-matching-link="#contact-link">
         <div class="wrapper">
             <h2 class="section-title">CONTACT</h2>
             <form class="form">
@@ -120,9 +118,26 @@
                 <textarea class="form__textarea" name="message" id="message" placeholder="message"></textarea>
                 <input class="form__button" type=submit value="send">
             </form>
-            <div class="wrapper--links"><a href="https://www.facebook.com/pawel.aniol"><img src="assets/images/icons/facebook-mini.png" alt="facebook"></a>
-                <a href="https://www.linkedin.com/in/pawe%C5%82-anio%C5%82-1610b15b/"><img src="assets/images/icons/linkedin-mini.jpg" alt="linkedin"></a>
-                <a href="https://github.com/jaczylianhel/"><img src="assets/images/icons/GitHub-min.jpg" alt="github"></a>
+            <div class="wrapper--links">
+                <a href="https://www.facebook.com/pawel.aniol">
+                    <picture>
+                        <source srcset="assets/images/icons/facebook.png 1380w" media="(min-width: 990px)">
+                        <img srcset="assets/images/icons/facebook-min.jpg" alt="facebook">
+                    </picture>
+                </a>
+
+                <a href="https://www.linkedin.com/in/pawe%C5%82-anio%C5%82-1610b15b/">
+                    <picture>
+                        <source srcset="assets/images/icons/linkedin.jpg 1380w" media="(min-width: 990px)">
+                        <img srcset="assets/images/icons/linkedin-min.png" alt="linkedin">
+                    </picture>
+                </a>
+                <a href="https://github.com/jaczylianhel/">
+                    <picture>
+                        <source srcset="assets/images/icons/github.jpg 1380w" media="(min-width: 990px)">
+                        <img srcset="assets/images/icons/github-min.jpg" alt="github">
+                    </picture>
+                </a>
             </div>
         </div>
     </div>

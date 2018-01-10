@@ -3,20 +3,17 @@
         display: block;
     }
 
-    img {
-        height: 100vh;
-    }
-
     &__text-content {
         position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 40%;
+        transform: translateY(-100%);
         left: 0;
         width: 100%;
         text-align: center;
 
-        @mixin atMedium {
-            padding-top: 60px;
+        @mixin atSmall {
+            top: 30%;
+            transform: translateY(-30%);
         }
     }
     &__title {

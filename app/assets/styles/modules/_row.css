@@ -17,6 +17,13 @@
         padding-right: 100px;
     }
 
+
+    @mixin atSmall {
+        &__medium-4 {
+            text-align: center;
+        }
+    }
+
     @mixin atMedium {
         &--b-margin-until-medium {
             margin-bottom: 0;
