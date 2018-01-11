@@ -558,9 +558,7 @@ img {
         background-color: rgba(0, 0, 0, .50)
 }
 
-        .site-header--light {
-            background-color: rgba(232, 7, 7, .50);
-        }
+        .site-header--light {}
     }
 
 .site-header__menu-icon {
@@ -759,7 +757,7 @@ img {
     }
 
 .page-section--grey {
-        background-color: #848482;
+        background-color: #20B2AA;
         color: #fff;
 
     }
@@ -892,25 +890,6 @@ img {
 }
     }
 
-.section-title__icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: .6;
-    }
-
-@media (min-width: 530px) {
-
-.section-title__icon {
-            position: relative;
-            top: 8px;
-            margin-right: .5rem;
-            margin-left: 0;
-            display: inline-block;
-            margin-bottom: 0
-    }
-    }
-
 .feature-item {
     position: relative;
     padding-bottom: 2.5rem;
@@ -962,6 +941,7 @@ img {
 
 .feature-item img {
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .form__input {

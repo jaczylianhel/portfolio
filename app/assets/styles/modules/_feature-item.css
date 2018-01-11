@@ -39,4 +39,5 @@
 
 .feature-item img {
     margin: 0 auto;
+    cursor: pointer;
 }

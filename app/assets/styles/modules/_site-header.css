@@ -13,9 +13,7 @@
         position: fixed;
         background-color: rgba(0, 0, 0, .50);
 
-        &--light {
-            background-color: rgba(232, 7, 7, .50);
-        }
+        &--light {}
 
     }
 
