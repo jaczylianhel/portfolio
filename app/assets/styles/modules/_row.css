@@ -42,6 +42,9 @@
         &__medium-6 {
             float: left;
             width: 50%;
+            &--footer {
+                padding-left: 15%;
+            }
         }
 
         &__medium-8 {
